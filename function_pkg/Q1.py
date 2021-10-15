@@ -17,23 +17,30 @@
 #import platform module
 import platform
 
-#Returns information about bit architecture
-print("System Architecture  : ",platform.architecture())
+def system_informaton():
 
-#Returns the Machine Type
-print("Machine               : ",platform.machine())
+    print(".........System Information..........  \n")
+    
+    #Returns information about bit architecture
+    print("System Architecture  : ",platform.architecture())
 
-#Returns Computer Network Name
-print("Node                 : ",platform.node())
+    #Returns the Machine Type
+    print("Machine               : ",platform.machine())
 
-#Returns System Platform Information
-print("System Platform Info : ",platform.platform())
+    #Returns Computer Network Name
+    print("Node                 : ",platform.node())
 
-#Returns OS Name
-print("Operating System     : ", platform.system())
+    #Returns System Platform Information
+    print("System Platform Info : ",platform.platform())
 
-#Returns OS version
-print("OS Version           : ",platform.version())
+    #Returns OS Name
+    print("Operating System     : ", platform.system())
+
+    #Returns OS version
+    print("OS Version           : ",platform.version())
+
+
+system_informaton()
 
 
 
