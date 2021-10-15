@@ -25,12 +25,12 @@ def encrypt(password):
         #print(char)
         result = chr(ord(char) + 2)
         message = message + result
-        #time.sleep(2)
+    
 
     print("Encryption going on.....")
     time.sleep(3)
     #print final encryption code
-    print("Encrypted Password is :"+message)
+    print("Encrypted Password is :\t"+message)
 
 
 
@@ -38,8 +38,8 @@ def encrypt(password):
 if __name__ == "__main__":
 
     #initial password
-    password = "mypassword"
-    print("My Password is :" + password)
+    password = input("enter your password :\t")
+    print("My Password is :\t" + password)
     encrypt(password)
 
 
