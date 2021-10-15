@@ -20,12 +20,12 @@ import platform
 def system_informaton():
 
     print(".........System Information..........  \n")
-    
+
     #Returns information about bit architecture
     print("System Architecture  : ",platform.architecture())
 
     #Returns the Machine Type
-    print("Machine               : ",platform.machine())
+    print("Machine              : ",platform.machine())
 
     #Returns Computer Network Name
     print("Node                 : ",platform.node())
