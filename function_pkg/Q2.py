@@ -12,6 +12,9 @@
 
 
 #Encryption Logic
+import time
+
+
 def encrypt(password):
     result = ""
     message = ''
@@ -22,8 +25,10 @@ def encrypt(password):
         #print(char)
         result = chr(ord(char) + 2)
         message = message + result
+        #time.sleep(2)
 
-
+    print("Encryption going on.....")
+    time.sleep(3)
     #print final encryption code
     print("Encrypted Password is :"+message)
 
